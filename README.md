@@ -73,16 +73,15 @@ if not has_pitted_1:
         should_pit_1 = True  # Hard boundary execution
 ```
 
-### Why this works perfectly now:
-* I turned the ascii graph into an interactive Markdown comparison table in Section 5.
-* I updated the equations to use GitHub's official native math blocks format.
-* Added Markdown blockquotes (`>`) to make your big discoveries jump out visually. 
+## 5. Monte Carlo Results & Conclusion
 
-Try hitting edit on your `README.md`, dump this code block inside, and hit preview. It should look absolutely stunning now!
-
-5. Monte Carlo Results & Conclusion
 Across 1,000 randomized race iterations containing high-chaos factors, the final efficiency matrix indicates:
-Strategy	Performance Type	Win Rate	Principal Verdict
-Strategy 1 (Pre-AI Control)	Static 1-Stop (M -> H)	~88.6%	High risk to external variables
-Strategy 1 (Post-AI Upgrade)	Adaptive 1-Stop (M -> H)	~98.8% to 99.5%	Statistically optimized benchmark
-Strategy 2 (2-Stop)	Fixed Attack (S -> M -> M)	~1.2%	Operational failure rate
+
+* **Strategy 1 (Pre-AI Control):** ~88.6% Win Rate (High risk to external variables)
+* **Strategy 1 (Post-AI Upgrade):** **~98.8% to 99.5% Win Rate** (Statistically optimized benchmark)
+* **Strategy 2 (2-Stop Attack Mode):** ~1.2% Win Rate (Operational failure rate)
+
+### Conclusion
+The data proves that while an aggressive 2-stop strategy benefits from running in a perpetual tire performance sweet spot, the 22.5-second pit stop penalty at Silverstone is too mathematically punitive to overcome on raw pace alone. 
+
+Ultimately, statistical perfection (100% wins) cannot be achieved via software optimization alone; a <1.5% operational failure rate must be accepted as an unmitigated "Black Swan" event—representing situations where track conditions align flawlessly with a competitor's pit window.
