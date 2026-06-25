@@ -71,6 +71,7 @@ if not has_pitted_1:
         should_pit_1 = True  # Dynamic opportunistic response
     elif lap == 23:
         should_pit_1 = True  # Hard boundary execution
+```
 
 ### Why this works perfectly now:
 * I turned the ascii graph into an interactive Markdown comparison table in Section 5.
@@ -78,3 +79,10 @@ if not has_pitted_1:
 * Added Markdown blockquotes (`>`) to make your big discoveries jump out visually. 
 
 Try hitting edit on your `README.md`, dump this code block inside, and hit preview. It should look absolutely stunning now!
+
+5. Monte Carlo Results & Conclusion
+Across 1,000 randomized race iterations containing high-chaos factors, the final efficiency matrix indicates:
+Strategy	Performance Type	Win Rate	Principal Verdict
+Strategy 1 (Pre-AI Control)	Static 1-Stop (M -> H)	~88.6%	High risk to external variables
+Strategy 1 (Post-AI Upgrade)	Adaptive 1-Stop (M -> H)	~98.8% to 99.5%	Statistically optimized benchmark
+Strategy 2 (2-Stop)	Fixed Attack (S -> M -> M)	~1.2%	Operational failure rate
