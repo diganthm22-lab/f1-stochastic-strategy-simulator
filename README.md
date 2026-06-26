@@ -1,6 +1,7 @@
 # A Stochastic Analysis of Non-Linear Tire Degradation and Weather-Adaptive Strategy Optimization under Chaos Conditions
 
-**Author:** *Diganth Maruthi*
+**Author:** Diganth Maruthi
+
 **Project Type:** Computational Physics, Predictive Data Science & Interactive Simulation  
 **Language/Stack:** Python 3 (Standard Library)  
 
