@@ -20,7 +20,7 @@ strat_1_wins = 0
 strat_2_wins = 0
 total_simulations = 1000
 
-print(f"🧠 Running {total_simulations} simulations with AI Adaptive Strategy...")
+print(f" Running {total_simulations} simulations with AI Adaptive Strategy...")
 
 for race in range(1, total_simulations + 1):
     
@@ -91,7 +91,7 @@ for race in range(1, total_simulations + 1):
         strat_2_wins += 1
 
 print("\n=========================================================")
-print("📊 FINAL TELEMETRY: AI BRAIN VS FIXED STRATEGY")
+print(" FINAL TELEMETRY: AI BRAIN VS FIXED STRATEGY")
 print("=========================================================")
 print(f"Strategy 1 (AI 1-Stop: M -> H) Wins: {strat_1_wins} races ({round((strat_1_wins/total_simulations)*100, 1)}%)")
 print(f"Strategy 2 (Fixed 2-Stop)     Wins: {strat_2_wins} races ({round((strat_2_wins/total_simulations)*100, 1)}%)")
